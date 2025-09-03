@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="max-w-4xl mx-auto p-6 bg-gray-50 min-h-screen">
       <h1 className="text-3xl font-bold text-center mb-8 text-gray-800">
-        Image Viewer & Manipulator
+        Decipher
       </h1>
       
       <div className="bg-white rounded-lg shadow-md p-6 mb-6">
@@ -233,7 +233,7 @@ function App() {
       {!image && (
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 text-center">
           <p className="text-gray-600">
-            Upload an image to start viewing and manipulating it with various filters and transformations.
+            Upload a manuscript image to view and manipulate it with various filters and transformations.
           </p>
         </div>
       )}
